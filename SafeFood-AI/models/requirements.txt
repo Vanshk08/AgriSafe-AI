@@ -1,0 +1,8 @@
+# Model Training Dependencies
+# These are the same as backend requirements
+# You can use the same environment for training
+
+numpy>=1.26.0
+scikit-learn>=1.5.0
+Pillow>=10.0.0
+scikit-image>=0.23.0
