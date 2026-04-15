@@ -110,12 +110,12 @@ const ImageUploader = ({ onPredictionComplete }) => {
       };
 
       // Get existing scans from localStorage
-      const existingScans = localStorage.getItem('safefood_scans');
+      const existingScans = localStorage.getItem('agrisafe_scans');
       const scans = existingScans ? JSON.parse(existingScans) : [];
 
       // Add new scan and save
       scans.push(scan);
-      localStorage.setItem('safefood_scans', JSON.stringify(scans));
+      localStorage.setItem('agrisafe_scans', JSON.stringify(scans));
     } catch (error) {
       console.error('Error saving scan to history:', error);
     }

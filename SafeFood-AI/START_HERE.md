@@ -1,4 +1,4 @@
-# 🍎 SafeFood AI - COMPLETE DELIVERY SUMMARY
+# 🍎 AgriSafe AI - COMPLETE DELIVERY SUMMARY
 
 ## ✅ PROJECT COMPLETION STATUS: 100% DONE
 
@@ -115,7 +115,7 @@ npm start
 ## 📁 FILE STRUCTURE CREATED
 
 ```
-SafeFood-AI/ (Root)
+AgriSafe-AI/ (Root)
 ├── frontend/ (React App)
 │   ├── src/
 │   │   ├── components/ (ImageUploader, RiskPredictor)
@@ -334,7 +334,7 @@ Werkzeug (Request Handling)
 
 ### Action 1: Extract & Navigate (2 minutes)
 ```bash
-cd SafeFood-AI
+cd AgriSafe-AI
 dir  # View all files (Windows)
 ls   # View all files (Mac/Linux)
 ```
@@ -494,13 +494,13 @@ Everything you need is ready. All documentation is included.
 
 ### Next Step: Open README.md and Follow Setup Instructions!
 
-**Your SafeFood AI application is ready to ensure food safety with the power of AI!** 🍎✨
+**Your AgriSafe AI application is ready to ensure food safety with the power of AI!** 🍎✨
 
 ---
 
 **Version**: 1.0.0  
 **Status**: ✅ COMPLETE & PRODUCTION READY  
 **Created**: April 2024  
-**Location**: SafeFood-AI/ (in your workspace)
+**Location**: AgriSafe-AI/ (in your workspace)
 
 **Start here → open README.md** 📖

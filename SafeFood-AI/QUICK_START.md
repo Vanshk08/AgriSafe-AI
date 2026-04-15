@@ -1,4 +1,4 @@
-# SafeFood AI - Quick Reference Guide
+# AgriSafe AI - Quick Reference Guide
 
 ## 🚀 Quick Start Commands
 

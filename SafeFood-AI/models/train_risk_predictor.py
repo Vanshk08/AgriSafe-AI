@@ -76,7 +76,7 @@ def train_risk_predictor():
     """Train the risk prediction model"""
     
     print("=" * 60)
-    print("SafeFood AI - Risk Prediction Model Training")
+    print("AgriSafe AI - Risk Prediction Model Training")
     print("=" * 60)
     
     try:

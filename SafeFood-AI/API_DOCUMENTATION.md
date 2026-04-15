@@ -1,4 +1,4 @@
-# SafeFood AI - API Documentation
+# AgriSafe AI - API Documentation
 
 ## Base URL
 ```

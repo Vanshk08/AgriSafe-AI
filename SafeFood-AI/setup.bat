@@ -1,9 +1,9 @@
 @echo off
-REM SafeFood AI Setup Script for Windows
+REM AgriSafe AI Setup Script for Windows
 
 echo.
 echo ========================================
-echo SafeFood AI - Setup Script
+echo AgriSafe AI - Setup Script
 echo ========================================
 echo.
 

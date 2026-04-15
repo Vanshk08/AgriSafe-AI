@@ -6,7 +6,7 @@ const DarkModeToggle = ({ onToggle }) => {
 
   // Load dark mode preference from localStorage on mount
   useEffect(() => {
-    const savedDarkMode = localStorage.getItem('safefood_dark_mode');
+    const savedDarkMode = localStorage.getItem('agrisafe_dark_mode');
     if (savedDarkMode !== null) {
       const isDark = JSON.parse(savedDarkMode);
       setIsDarkMode(isDark);
@@ -31,7 +31,7 @@ const DarkModeToggle = ({ onToggle }) => {
   const handleToggle = () => {
     const newDarkMode = !isDarkMode;
     setIsDarkMode(newDarkMode);
-    localStorage.setItem('safefood_dark_mode', JSON.stringify(newDarkMode));
+    localStorage.setItem('agrisafe_dark_mode', JSON.stringify(newDarkMode));
     applyDarkMode(newDarkMode);
 
     if (onToggle) {

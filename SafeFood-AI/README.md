@@ -1,10 +1,10 @@
-# 🍎 SafeFood AI - Food Contamination Detection Web App
+# 🍎 AgriSafe AI - Food Contamination Detection Web App
 
 An AI-powered web application that detects food contamination through image analysis and risk prediction based on food properties. Built with React, Flask, TensorFlow, and Scikit-learn.
 
 ## 🎯 Project Overview
 
-SafeFood AI is a complete end-to-end food safety detection system that helps users determine if food is safe to consume using:
+AgriSafe AI is a complete end-to-end food safety detection system that helps users determine if food is safe to consume using:
 
 1. **Image Analysis**: Deep learning model classifies food as fresh or spoiled
 2. **Risk Assessment**: Machine learning model predicts contamination risk based on food type, storage time, and temperature
@@ -53,7 +53,7 @@ SafeFood AI is a complete end-to-end food safety detection system that helps use
 
 ```bash
 # Navigate to the project directory
-cd SafeFood-AI
+cd AgriSafe-AI
 ```
 
 ### Step 2: Backend Setup
@@ -160,7 +160,7 @@ npm start
 ```
 Compiled successfully!
 
-You can now view safefood-ai in the browser.
+You can now view agrisafe-ai in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://192.168.x.x:3000
@@ -171,7 +171,7 @@ You can now view safefood-ai in the browser.
 ### Step 6: Use the Application
 
 1. Open browser and go to `http://localhost:3000`
-2. You should see the SafeFood AI dashboard
+2. You should see the AgriSafe AI dashboard
 3. Try both features:
    - **Upload an image** for food freshness detection
    - **Input food properties** for risk assessment
@@ -179,7 +179,7 @@ You can now view safefood-ai in the browser.
 ## 📁 Project Structure
 
 ```
-SafeFood-AI/
+AgriSafe-AI/
 ├── frontend/              # React application
 │   ├── src/
 │   │   ├── components/   # React components
@@ -393,4 +393,4 @@ For issues, questions, or suggestions:
 
 ---
 
-**Made with ❤️ for food safety** | SafeFood AI v1.0.0
+**Made with ❤️ for food safety** | AgriSafe AI v1.0.0

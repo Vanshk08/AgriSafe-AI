@@ -1,5 +1,5 @@
 """
-SafeFood AI Backend Configuration
+AgriSafe AI Backend Configuration
 """
 
 import os
@@ -9,7 +9,7 @@ DEBUG = True
 DEVELOPMENT = True
 
 # Database Configuration
-SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///safefood.db')
+SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///agrisafe.db')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = DEBUG
 

@@ -7,7 +7,7 @@ const StatisticsDashboard = () => {
 
   const loadScans = () => {
     try {
-      const savedScans = localStorage.getItem('safefood_scans');
+      const savedScans = localStorage.getItem('agrisafe_scans');
       if (savedScans) {
         let allScans = JSON.parse(savedScans);
         

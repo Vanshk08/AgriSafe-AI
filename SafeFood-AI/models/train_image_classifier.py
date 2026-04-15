@@ -25,7 +25,7 @@ def train_image_classifier(epochs=None, batch_size=None):
         batch_size: ignored (for compatibility)
     """
     print("=" * 60)
-    print("SafeFood AI - Image Classifier Training (Scikit-Learn)")
+    print("AgriSafe AI - Image Classifier Training (Scikit-Learn)")
     print("=" * 60)
     
     try:

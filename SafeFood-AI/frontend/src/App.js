@@ -13,7 +13,7 @@ import './App.css';
 
 /**
  * Main App Component
- * SafeFood AI - Agricultural Contamination Detection System
+ * AgriSafe AI - Agricultural Contamination Detection System
  */
 function App() {
   const [showApp, setShowApp] = useState(false);
@@ -66,7 +66,7 @@ function App() {
           <div className="logo-section" onClick={() => setShowApp(false)} style={{ cursor: 'pointer' }}>
             <span className="app-logo">🌾</span>
             <div className="header-text">
-              <h1>SafeFood AI</h1>
+              <h1>AgriSafe AI</h1>
               <p className="subtitle">Protection from Agricultural Contamination Towards Food</p>
             </div>
           </div>
@@ -231,7 +231,7 @@ function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p>&copy; 2024 SafeFood AI. Protection from Agricultural Contamination Towards Food.</p>
+        <p>&copy; 2024 AgriSafe AI. Protection from Agricultural Contamination Towards Food.</p>
       </footer>
     </div>
   );

@@ -19,7 +19,7 @@ const ScanHistory = () => {
 
   const loadScans = () => {
     try {
-      const savedScans = localStorage.getItem('safefood_scans');
+      const savedScans = localStorage.getItem('agrisafe_scans');
       if (savedScans) {
         setScans(JSON.parse(savedScans));
       }
@@ -51,7 +51,7 @@ const ScanHistory = () => {
 
   const clearAllScans = () => {
     if (window.confirm('Are you sure you want to clear all scan history?')) {
-      localStorage.removeItem('safefood_scans');
+      localStorage.removeItem('agrisafe_scans');
       setScans([]);
     }
   };
@@ -59,7 +59,7 @@ const ScanHistory = () => {
   const deleteScan = (id) => {
     const updated = scans.filter(s => s.id !== id);
     setScans(updated);
-    localStorage.setItem('safefood_scans', JSON.stringify(updated));
+    localStorage.setItem('agrisafe_scans', JSON.stringify(updated));
   };
 
   const displayedScans = getSortedAndFilteredScans();

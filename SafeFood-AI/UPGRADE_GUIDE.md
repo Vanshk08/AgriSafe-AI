@@ -1,8 +1,8 @@
-# SafeFood AI - Agricultural Contamination Detection Upgrade Guide
+# AgriSafe AI - Agricultural Contamination Detection Upgrade Guide
 
 ## Overview
 
-The SafeFood AI application has been successfully upgraded to focus on **agricultural contamination detection**. The system now predicts contamination risks **before food reaches consumers** by analyzing agricultural practices, environmental conditions, and farm-level inputs.
+The AgriSafe AI application has been successfully upgraded to focus on **agricultural contamination detection**. The system now predicts contamination risks **before food reaches consumers** by analyzing agricultural practices, environmental conditions, and farm-level inputs.
 
 ### Theme
 **"Protection from Agricultural Contamination Towards Food"**

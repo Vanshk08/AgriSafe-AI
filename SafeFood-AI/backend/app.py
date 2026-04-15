@@ -1,5 +1,5 @@
 """
-SafeFood AI Backend - Agricultural Contamination Detection System
+AgriSafe AI Backend - Agricultural Contamination Detection System
 Flask API for food contamination and agricultural risk detection
 """
 from flask import Flask, request, jsonify

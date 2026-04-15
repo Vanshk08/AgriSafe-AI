@@ -1,9 +1,9 @@
-# SafeFood AI Project Structure
+# AgriSafe AI Project Structure
 
 ## Folder Overview
 
 ```
-SafeFood-AI/
+AgriSafe-AI/
 ├── frontend/                    # React frontend application
 │   ├── public/
 │   │   └── index.html          # Main HTML file

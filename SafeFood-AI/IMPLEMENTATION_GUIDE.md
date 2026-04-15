@@ -1,4 +1,4 @@
-# SafeFood AI - Implementation & Setup Guide
+# AgriSafe AI - Implementation & Setup Guide
 
 ## Quick Start
 
@@ -226,11 +226,11 @@ ERROR: Could not connect to database
 ```
 
 **Solutions:**
-1. Verify SQLite file exists: `backend/safefood.db`
-2. Check file permissions: `chmod 644 safefood.db`
+1. Verify SQLite file exists: `backend/agrisafe.db`
+2. Check file permissions: `chmod 644 agrisafe.db`
 3. Reset database:
    ```bash
-   rm safefood.db
+   rm agrisafe.db
    python app.py  # Will recreate
    ```
 
@@ -353,7 +353,7 @@ logging.basicConfig(
 tail -f flask.log
 
 # Check database logs
-tail -f safefood.db
+tail -f agrisafe.db
 ```
 
 ---
@@ -382,7 +382,7 @@ batch_id = db.Column(db.String(50), index=True)
 - [ ] Backend running on port 5000
 - [ ] Frontend running on port 3000
 - [ ] API health check passes: `GET /health`
-- [ ] Database tables created: `safefood.db` exists
+- [ ] Database tables created: `agrisafe.db` exists
 - [ ] Models trained and present in `./models/saved_models/`
 - [ ] No CORS errors in browser console
 - [ ] Agricultural form submits without errors

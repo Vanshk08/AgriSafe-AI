@@ -1,4 +1,4 @@
-# 📑 SafeFood AI - Complete File Index
+# 📑 AgriSafe AI - Complete File Index
 
 ## 📂 Project Root Directory
 
@@ -352,17 +352,17 @@ User Opens Browser
 If creating from scratch:
 
 ```
-1. SafeFood-AI/
-2. SafeFood-AI/frontend/
-3. SafeFood-AI/frontend/src/
-4. SafeFood-AI/frontend/src/components/
-5. SafeFood-AI/frontend/public/
-6. SafeFood-AI/backend/
-7. SafeFood-AI/models/
-8. SafeFood-AI/models/saved_models/
-9. SafeFood-AI/dataset/
-10. SafeFood-AI/dataset/images/images/fresh/
-11. SafeFood-AI/dataset/images/images/spoiled/
+1. AgriSafe-AI/
+2. AgriSafe-AI/frontend/
+3. AgriSafe-AI/frontend/src/
+4. AgriSafe-AI/frontend/src/components/
+5. AgriSafe-AI/frontend/public/
+6. AgriSafe-AI/backend/
+7. AgriSafe-AI/models/
+8. AgriSafe-AI/models/saved_models/
+9. AgriSafe-AI/dataset/
+10. AgriSafe-AI/dataset/images/images/fresh/
+11. AgriSafe-AI/dataset/images/images/spoiled/
 ```
 
 ---
@@ -439,4 +439,4 @@ If creating from scratch:
 
 ---
 
-**🎉 SafeFood AI is ready to use! 🍎**
+**🎉 AgriSafe AI is ready to use! 🍎**

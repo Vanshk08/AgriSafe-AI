@@ -1,4 +1,4 @@
-# 🍎 SafeFood AI - Project Completion Summary
+# 🍎 AgriSafe AI - Project Completion Summary
 
 ## ✅ Project Status: COMPLETE
 
@@ -126,7 +126,7 @@ cd frontend && npm start
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    USER BROWSER                         │
-│              SafeFood AI (React UI)                      │
+│              AgriSafe AI (React UI)                      │
 │         http://localhost:3000                            │
 └────────────────────┬────────────────────────────────────┘
                      │
@@ -171,7 +171,7 @@ cd frontend && npm start
 ## 📁 File Structure
 
 ```
-SafeFood-AI/
+AgriSafe-AI/
 ├── frontend/                          # React App
 │   ├── src/
 │   │   ├── components/               # React Components
@@ -405,7 +405,7 @@ gunicorn --bind 0.0.0.0:5000 app:app
 
 ## 🎉 Summary
 
-**SafeFood AI is a complete, production-ready food contamination detection web application with:**
+**AgriSafe AI is a complete, production-ready food contamination detection web application with:**
 
 - ✅ Full-stack implementation (Frontend + Backend + AI)
 - ✅ 2 trained ML models for classification and risk prediction

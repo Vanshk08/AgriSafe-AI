@@ -2,7 +2,7 @@
 
 ## 🎯 For Developers
 
-This guide helps developers understand and extend the SafeFood AI project.
+This guide helps developers understand and extend the AgriSafe AI project.
 
 ## Project Architecture
 
@@ -142,7 +142,7 @@ API_HOST=0.0.0.0
 API_PORT=5000
 
 # Frontend
-REACT_APP_API_URL=https://api.safefood.ai
+REACT_APP_API_URL=https://api.agrisafe.ai
 ```
 
 ## Performance Optimization

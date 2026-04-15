@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# SafeFood AI Setup Script for macOS/Linux
+# AgriSafe AI Setup Script for macOS/Linux
 
 echo ""
 echo "========================================"
-echo "SafeFood AI - Setup Script"
+echo "AgriSafe AI - Setup Script"
 echo "========================================"
 echo ""
 
