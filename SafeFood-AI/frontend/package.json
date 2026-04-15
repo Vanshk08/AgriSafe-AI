@@ -2,7 +2,7 @@
   "name": "agrisafe-ai",
   "version": "1.0.0",
   "description": "AI-powered food contamination detection web app",
-  "author": "FoodSense Team",
+  "author": "AgriSafe Team",
   "license": "MIT",
   "private": true,
   "dependencies": {

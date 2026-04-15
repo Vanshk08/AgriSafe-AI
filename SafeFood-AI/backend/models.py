@@ -1,4 +1,3 @@
-"""
 """Database Models for AgriSafe AI Agricultural Contamination System
 """
 from flask_sqlalchemy import SQLAlchemy

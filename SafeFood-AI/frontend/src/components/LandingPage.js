@@ -13,7 +13,7 @@ function LandingPage({ onGetStarted }) {
         <div className="nav-container">
           <div className="nav-logo">
             <span className="logo-emoji">🍎</span>
-            <span className="logo-text">FoodSense AI</span>
+            <span className="logo-text">AgriSafe AI</span>
           </div>
           <button className="nav-cta-btn" onClick={onGetStarted}>
             Get Started
@@ -66,7 +66,7 @@ function LandingPage({ onGetStarted }) {
       {/* Problems Section */}
       <section className="problems">
         <div className="section-container">
-          <h2>Why FoodSense AI?</h2>
+          <h2>Why AgriSafe AI?</h2>
           <div className="problems-grid">
             <div className="problem-card">
               <div className="problem-icon">😵</div>
@@ -188,7 +188,7 @@ function LandingPage({ onGetStarted }) {
           <h2>Ready to Eat Safer?</h2>
           <p>Start analyzing your food with AI-powered precision today</p>
           <button className="btn btn-primary btn-large" onClick={onGetStarted}>
-            Launch FoodSense AI
+            Launch AgriSafe AI
           </button>
         </div>
       </section>
@@ -196,7 +196,7 @@ function LandingPage({ onGetStarted }) {
       {/* Footer */}
       <footer className="landing-footer">
         <div className="footer-content">
-          <p>&copy; 2026 FoodSense AI. Protecting your health with artificial intelligence.</p>
+          <p>&copy; 2026 AgriSafe AI. Protecting your health with artificial intelligence.</p>
           <div className="footer-links">
             <a href="#privacy">Privacy</a>
             <a href="#terms">Terms</a>
