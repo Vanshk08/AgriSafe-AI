@@ -9,6 +9,7 @@ DEBUG = True
 DEVELOPMENT = True
 
 # Database Configuration
+# Use PostgreSQL on Vercel (DATABASE_URL env var), SQLite locally
 SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///agrisafe.db')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = DEBUG
