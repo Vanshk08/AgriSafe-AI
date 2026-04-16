@@ -1,20 +1,25 @@
 {
-  "buildCommand": "npm run build --prefix frontend",
+  "buildCommand": "npm run build --prefix frontend && echo 'Build complete'",
   "outputDirectory": "frontend/build",
   "installCommand": "npm install --prefix frontend && pip install -r api/requirements.txt",
   "functions": {
     "api/index.py": {
-      "runtime": "python3.11"
+      "runtime": "python3.11",
+      "maxDuration": 10
     }
   },
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/api/.*",
       "dest": "/api/index.py"
     },
     {
-      "src": "/(.*)",
+      "src": "/.*",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "REACT_APP_API_URL": "@react_app_api_url",
+    "DATABASE_URL": "@database_url"
+  }
 }
