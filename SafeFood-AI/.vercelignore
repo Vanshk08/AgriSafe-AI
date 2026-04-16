@@ -1,0 +1,47 @@
+# Vercel ignore file
+
+# Backend venv
+backend_venv/
+venv/
+env/
+
+# Git
+.git
+.gitignore
+
+# Build artifacts
+build/
+dist/
+*.egg-info
+
+# Cache and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env.local
+.env.*.local
+
+# Node modules (will be installed)
+node_modules
+
+# Dataset and uploads
+dataset/
+uploads/
+backend/uploads/
+
+# Documentation (optional - comment out if you want to include)
+*.md
+README.md
