@@ -41,7 +41,7 @@ const AgriculturalForm = ({ onDataSubmitted }) => {
   useEffect(() => {
     const fetchMetadata = async () => {
       try {
-        const response = await axios.get(`${API_BASE_URL}/metadata`);
+        const response = await axios.get(`${API_BASE_URL}/api/metadata`);
         setCropTypes(response.data.crop_types);
         setIrrigationSources(response.data.irrigation_sources);
       } catch (err) {
@@ -108,7 +108,7 @@ const AgriculturalForm = ({ onDataSubmitted }) => {
 
     try {
       const response = await axios.post(
-        `${API_BASE_URL}/agricultural-input`,
+        `${API_BASE_URL}/api/agricultural-input`,
         formData
       );
 

@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     const checkApiHealth = async () => {
       try {
-        const response = await fetch(`${API_BASE_URL}/health`);
+        const response = await fetch(`${API_BASE_URL}/api/health`);
         if (response.ok) {
           setApiStatus('connected');
         } else {

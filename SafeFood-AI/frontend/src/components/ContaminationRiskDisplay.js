@@ -34,14 +34,14 @@ const ContaminationRiskDisplay = ({ batchId }) => {
     try {
       // Fetch risks
       const riskResponse = await axios.get(
-        `${API_BASE_URL}/agricultural-risk/${batchId}`
+        `${API_BASE_URL}/api/batch/${batchId}`
       );
       
       setRisks(riskResponse.data.risks);
 
       // Fetch safety score
       const scoreResponse = await axios.post(
-        `${API_BASE_URL}/food-safety-score/${batchId}`,
+        `${API_BASE_URL}/api/batch/${batchId}`,
         {}
       );
       

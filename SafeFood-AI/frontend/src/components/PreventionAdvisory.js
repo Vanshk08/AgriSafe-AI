@@ -32,7 +32,7 @@ const PreventionAdvisory = ({ batchId }) => {
 
     try {
       const response = await axios.post(
-        `${API_BASE_URL}/food-safety-score/${batchId}`,
+        `${API_BASE_URL}/api/batch/${batchId}`,
         {}
       );
 

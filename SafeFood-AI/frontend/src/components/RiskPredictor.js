@@ -26,7 +26,7 @@ const RiskPredictor = ({ onPredictionComplete }) => {
   useEffect(() => {
     const fetchFoodTypes = async () => {
       try {
-        const response = await axios.get(`${API_BASE_URL}/food-types`);
+        const response = await axios.get(`${API_BASE_URL}/api/metadata`);
         setFoodTypes(response.data.food_types);
       } catch (err) {
         console.error('Error fetching food types:', err);
@@ -71,7 +71,7 @@ const RiskPredictor = ({ onPredictionComplete }) => {
 
     try {
       const response = await axios.post(
-        `${API_BASE_URL}/predict-risk`,
+        `${API_BASE_URL}/api/predict-risk`,
         formData
       );
 

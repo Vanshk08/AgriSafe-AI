@@ -70,7 +70,7 @@ const BatchUpload = () => {
         newProgress[fileId] = 50;
         setUploadProgress({ ...newProgress });
 
-        const response = await axios.post(`${API_BASE_URL}/predict-image`, formData, {
+        const response = await axios.post(`${API_BASE_URL}/api/predict-image`, formData, {
           headers: { 'Content-Type': 'multipart/form-data' },
         });
 
