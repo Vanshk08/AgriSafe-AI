@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build --prefix frontend && echo 'Build complete'",
+  "version": 2,
+  "buildCommand": "npm run build --prefix frontend",
   "outputDirectory": "frontend/build",
   "installCommand": "npm install --prefix frontend && pip install -r api/requirements.txt",
   "functions": {
@@ -10,16 +11,12 @@
   },
   "routes": [
     {
-      "src": "/api/.*",
+      "src": "/api(.*)",
       "dest": "/api/index.py"
     },
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "@react_app_api_url",
-    "DATABASE_URL": "@database_url"
-  }
+  ]
 }
